@@ -1,0 +1,15 @@
+{
+  "argv": [
+    "/home/aalexiev/anaconda3/bin/python3",
+    "-Xfrozen_modules=off",
+    "-m",
+    "ipykernel_launcher",
+    "-f",
+    "{connection_file}"
+  ],
+  "display_name": "Python (lab2 GPU)",
+  "language": "python",
+  "metadata": {
+    "debugger": true
+  }
+}

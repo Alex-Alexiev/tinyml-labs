@@ -1,0 +1,33 @@
+# Only track the lab folders and the shared Jupyter server setup at the top level.
+# (The loose files at the root are a stray copy of lab3's starter download.)
+/*
+!/.gitignore
+!/lab*/
+!/jupyter-server/
+
+# Jupyter server secrets and per-run state
+**/jupyter-server/token
+**/jupyter-server/cookie_secret
+**/jupyter-server/jupyter.pid
+**/jupyter-server/jupyter.log
+**/jupyter-server/runtime/
+**/jupyter-server/ipython/
+
+# Notebook and Python caches
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+
+# Datasets, downloads and model weights
+data/
+acc_datasets/
+mcunetv2-dev-main/
+*.zip
+*.zip?*
+*.tar
+*.tar.gz
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.tflite
